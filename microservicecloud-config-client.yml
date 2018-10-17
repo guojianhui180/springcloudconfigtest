@@ -7,7 +7,7 @@ server:
 eureka:
   client:
     service-url:
-      default-zone:
+      defaultZone:
            http://localhost:7001/eureka/
 ---
 spring:
@@ -19,7 +19,7 @@ server:
 eureka:
   client:
     service-url:
-      default-zone:
+      defaultZone:
            http://127.0.0.1:7002/eureka/
 ---
 spring:
@@ -31,5 +31,5 @@ server:
 eureka:
   client:
     service-url:
-      default-zone:
+      defaultZone:
            http://G34RGMC2E.logon.ds.ge.com:7003/eureka/
